@@ -1,3 +1,21 @@
-html {
-  background-color: red;
+.container header {
+  display: flex;
+  justify-content: space-between;
+  vertical-align: baseline;
+  height: 6vh;
+  background-color: #95A7B1;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  padding-left: 8vh;
+  padding-right: 8vh;
+}
+.container header a {
+  display: none;
+}
+.container header img {
+  object-fit: contain;
+}
+.container header h2 {
+  font-size: 3rem;
+  color: white;
 }
