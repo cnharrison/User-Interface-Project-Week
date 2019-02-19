@@ -204,8 +204,8 @@ h3 {
   display: flex;
   padding-left: 8rem;
   padding-right: 8rem;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 .container .main-content .slim-content-section .slim-text {
   display: flex;
@@ -233,4 +233,54 @@ h3 {
 .container .main-content .slim-content-section-reversed .slim-text-reversed {
   padding-right: 0;
   padding-left: 4rem;
+}
+.container .recent-projects {
+  width: 855px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding-top: 4vh;
+}
+.container .recent-projects h3 {
+  align-self: flex-start;
+  padding-bottom: 5rem;
+}
+.container .recent-projects .fat-content-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding-bottom: 10vh;
+}
+.container .recent-projects .fat-content-section .text-n-img {
+  display: inline-block;
+  padding-bottom: 10vh;
+}
+.container .recent-projects .fat-content-section .text-n-img h4 {
+  position: absolute;
+  bottom: 38vh;
+  right: 0vw;
+  color: #222222;
+  border: 1px solid white;
+  background-color: #D8D8D8;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  text-align: center;
+  width: 27rem;
+  text-decoration: none;
+  font-size: 2rem;
+}
+.container .recent-projects .fat-content-section .text-n-img-reversed h4 {
+  right: 45vw;
+}
+.container .recent-projects .fat-content-section p {
+  padding-left: 16vw;
+  padding-right: 16vw;
+}
+.container .recent-projects .fat-content-section p span {
+  display: block;
 }
