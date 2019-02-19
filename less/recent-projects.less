@@ -13,14 +13,14 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            position: relative;
             padding-bottom: 10vh;
             .text-n-img {
+                position: relative;
                 display: inline-block;
                 padding-bottom: 10vh;
                 h4 {
                     position: absolute;
-                    bottom: 38vh;
+                    bottom: 6vh;
                     right: 0vw;
                     color: #222222;
                     border: 1px solid white;
@@ -38,15 +38,18 @@
                 }
             }
             .text-n-img-reversed {
+                position: relative;
                 h4 {
-                    right: 45vw;
+                    position: absolute; 
+                    right: 0vw;
+                    left: 0vw; 
                 }
             }
             p {
                 padding-left: 16vw;
                 padding-right: 16vw;
-                span { 
-                    display: block; 
+                span {
+                    display: block;
                 }
             }
         }
