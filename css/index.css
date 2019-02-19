@@ -168,8 +168,8 @@ h3 {
   background-color: #95A7B1;
   padding-top: 1vh;
   padding-bottom: 1vh;
-  padding-left: 8vh;
-  padding-right: 8vh;
+  padding-left: 8vw;
+  padding-right: 8vw;
 }
 .container header a {
   display: none;
@@ -181,6 +181,12 @@ h3 {
   font-size: 2.5rem;
   font-weight: bold;
   color: white;
+}
+@media (max-width: 480px) {
+  .container header {
+    padding-left: 4vw;
+    padding-right: 4vw;
+  }
 }
 .container .main-content .jumbotron-section {
   position: relative;
