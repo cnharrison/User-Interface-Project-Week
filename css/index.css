@@ -220,18 +220,50 @@ h3 {
 }
 .container .main-content .slim-content-section {
   display: flex;
-  padding-left: 8rem;
-  padding-right: 8rem;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-left: 8vw;
+  padding-right: 8vw;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+}
+@media (max-width: 480px) {
+  .container .main-content .slim-content-section {
+    padding-left: 4vw;
+    padding-right: 4vw;
+    flex-direction: column;
+  }
+}
+.container .main-content .slim-content-section .slim-img-mobile {
+  display: none;
 }
 .container .main-content .slim-content-section .slim-text {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-  padding-right: 4rem;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+  padding-left: 4vw;
+  padding-right: 4vw;
+}
+@media (max-width: 480px) {
+  .container .main-content .slim-content-section h3 {
+    padding-bottom: 2vh;
+  }
+  .container .main-content .slim-content-section .slim-text {
+    order: 1;
+    text-align: justify;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .container .main-content .slim-content-section .slim-img-mobile {
+    display: block;
+    order: 0;
+  }
+  .container .main-content .slim-content-section .slim-img {
+    display: none;
+  }
+  .container .main-content .slim-content-section p {
+    padding-bottom: 2vh;
+  }
 }
 .container .main-content .slim-content-section .button {
   color: #222222;
@@ -245,12 +277,26 @@ h3 {
   text-decoration: none;
   font-size: 1.4rem;
 }
+@media (max-width: 480px) {
+  .container .main-content .slim-content-section .button {
+    width: 100%;
+  }
+}
 .container .main-content .slim-content-section-reversed {
   flex-direction: row-reverse;
 }
 .container .main-content .slim-content-section-reversed .slim-text-reversed {
   padding-right: 0;
-  padding-left: 4rem;
+  padding-left: 4vw;
+}
+@media (max-width: 480px) {
+  .container .main-content .slim-content-section-reversed {
+    flex-direction: column;
+  }
+  .container .main-content .slim-content-section-reversed .slim-text-reversed {
+    padding-right: 0;
+    padding-left: 0;
+  }
 }
 .container .recent-projects {
   width: 855px;
