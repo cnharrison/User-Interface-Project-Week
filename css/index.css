@@ -222,6 +222,7 @@ h3 {
 @media (max-width: 480px) {
   .container .main-content .jumbotron-section h1 {
     left: 4vw;
+    font-size: 4.4rem;
   }
 }
 .container .main-content .slim-content-section {
