@@ -185,20 +185,38 @@ h3 {
 .container .main-content .jumbotron-section {
   position: relative;
 }
-.container .main-content .jumbotron-section img {
+.container .main-content .jumbotron-section .jumbotron-img-mobile {
+  display: none;
+}
+.container .main-content .jumbotron-section .jumbotron-img {
   width: 100%;
   object-fit: cover;
+}
+@media (max-width: 480px) {
+  .container .main-content .jumbotron-section .jumbotron-img-mobile {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+  }
+  .container .main-content .jumbotron-section .jumbotron-img {
+    display: none;
+  }
 }
 .container .main-content .jumbotron-section h1 {
   position: absolute;
   bottom: 5vh;
-  left: 8vh;
+  left: 8vw;
   font-size: 6.4rem;
   font-weight: bold;
   color: white;
 }
 .container .main-content .jumbotron-section h1 span {
   display: block;
+}
+@media (max-width: 480px) {
+  .container .main-content .jumbotron-section h1 {
+    left: 4vw;
+  }
 }
 .container .main-content .slim-content-section {
   display: flex;

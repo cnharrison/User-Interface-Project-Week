@@ -2,19 +2,37 @@
     .main-content {
         .jumbotron-section {
             position: relative;
-            img {
+            .jumbotron-img-mobile { 
+                display: none; 
+            }
+            .jumbotron-img {
                 width: 100%;
                 object-fit: cover;
+            }
+            @media (max-width: 480px) { 
+                .jumbotron-img-mobile {
+                    display: block; 
+                    width: 100%;
+                    object-fit: cover;
+                }
+                .jumbotron-img{ 
+                    display: none; 
+                }
             }
             h1 {
                 position: absolute;
                 bottom: 5vh;
-                left: 8vh;
+                left: 8vw;
                 font-size: 6.4rem;
                 font-weight: bold;
                 color: white;
                 span {
                     display: block;
+                }
+            }
+            @media (max-width: 480px) { 
+                h1 { 
+                    left: 4vw; 
                 }
             }
         }
