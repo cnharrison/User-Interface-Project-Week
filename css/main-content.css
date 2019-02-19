@@ -1,0 +1,52 @@
+.container .main-content .jumbotron-section {
+  position: relative;
+}
+.container .main-content .jumbotron-section img {
+  width: 100%;
+  object-fit: cover;
+}
+.container .main-content .jumbotron-section h1 {
+  position: absolute;
+  bottom: 5vh;
+  left: 8vh;
+  font-size: 6.4rem;
+  font-weight: bold;
+  color: white;
+}
+.container .main-content .jumbotron-section h1 span {
+  display: block;
+}
+.container .main-content .slim-content-section {
+  display: flex;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.container .main-content .slim-content-section .slim-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-right: 4rem;
+}
+.container .main-content .slim-content-section .button {
+  color: #222222;
+  border: 1px solid #222222;
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  text-align: center;
+  width: 13rem;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+.container .main-content .slim-content-section-reversed {
+  flex-direction: row-reverse;
+}
+.container .main-content .slim-content-section-reversed .slim-text-reversed {
+  padding-right: 0;
+  padding-left: 4rem;
+}
