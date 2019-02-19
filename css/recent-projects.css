@@ -47,8 +47,9 @@
   left: 0vw;
 }
 .container .recent-projects .fat-content-section p {
-  padding-left: 16vw;
-  padding-right: 16vw;
+  padding-left: 21vw;
+  padding-right: 21vw;
+  padding-bottom: 1rem;
 }
 .container .recent-projects .fat-content-section p span {
   display: block;
