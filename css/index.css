@@ -176,9 +176,6 @@ h3 {
   padding-left: 8vw;
   padding-right: 8vw;
 }
-.container header a {
-  display: none;
-}
 .container header img {
   object-fit: contain;
 }
