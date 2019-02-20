@@ -32,11 +32,28 @@
 .container footer .footer-row .formbox p {
   font-size: 1.2rem;
 }
+@media (max-width: 480px) {
+  .container footer .footer-row .formbox {
+    padding-bottom: 3vh;
+  }
+}
 .container footer .footer-row .addressbox {
   line-height: 2.7rem;
 }
 .container footer .footer-row .addressbox span {
   display: block;
+}
+@media (max-width: 480px) {
+  .container footer .footer-row .addressbox {
+    padding-bottom: 3vh;
+  }
+}
+@media (max-width: 480px) {
+  .container footer .footer-row {
+    height: auto;
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 .container footer .footertext {
   display: flex;
@@ -46,6 +63,13 @@
 .container footer .footertext p {
   font-size: 1.2rem;
   font-style: italic;
+}
+@media (max-width: 480px) {
+  .container footer {
+    height: auto;
+    padding-left: 4vw;
+    padding-right: 4vw;
+  }
 }
 .container h4 {
   font-size: 1.8rem;
