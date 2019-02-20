@@ -26,9 +26,13 @@
   font-weight: bold;
 }
 .tabs-item {
+  display: none;
   padding-left: 8vw;
   padding-right: 8vw;
 }
 .tabs-item .tabs-item-box {
   display: flex;
+}
+.tabs-item-selected {
+  display: block;
 }
