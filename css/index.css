@@ -483,40 +483,62 @@ h3 {
   line-height: 2.4rem;
 }
 .jumbotron-text {
-  padding-left: 8vw;
-  padding-right: 8vw;
+  padding-left: 4vw;
+  padding-right: 4vw;
   padding-top: 4vh;
   padding-bottom: 4vh;
 }
 .tabs {
-  display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 8vw;
-  padding-right: 8vw;
+  padding-bottom: 4vh;
+}
+.tabs-links {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 4vw;
+  padding-right: 4vw;
   padding-bottom: 4vh;
 }
 .tabs-link {
   color: #222222;
   border: 1px solid #222222;
-  padding-top: 1.3rem;
-  padding-bottom: 1.3rem;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
   padding-left: 2rem;
   padding-right: 2rem;
   text-align: center;
-  width: 19rem;
+  width: 18rem;
   text-decoration: none;
-  font-size: 2.1rem;
+  font-size: 1.8rem;
   font-weight: bold;
+  cursor: pointer;
+}
+.tabs-link:hover {
+  background-color: #222222;
+  color: #FFF;
 }
 .tabs-item {
   display: none;
-  padding-left: 8vw;
-  padding-right: 8vw;
+  padding-left: 4vw;
+  padding-right: 4vw;
 }
 .tabs-item .tabs-item-box {
   display: flex;
 }
 .tabs-item-selected {
-  display: block;
+  display: flex;
+  flex-direction: column;
+}
+.tabs-link-selected {
+  background-color: #5E9FB9;
+  color: white;
+}
+.tabs-items .tabs-item-title {
+  padding-bottom: 2vh;
+}
+.tabs-items .tabs-item-description {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  padding-right: 5vw;
 }
