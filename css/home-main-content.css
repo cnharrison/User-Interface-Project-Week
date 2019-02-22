@@ -20,13 +20,24 @@
 }
 .container .main-content .jumbotron-section h1 {
   position: absolute;
-  bottom: 18vh;
-  left: 7vw;
+  bottom: 5vh;
+  left: 3vw;
   font-size: 6.4rem;
   font-weight: bold;
   color: white;
 }
 .container .main-content .jumbotron-section h1 span {
+  display: block;
+}
+.container .main-content .jumbotron-section h5 {
+  position: absolute;
+  bottom: 18vh;
+  left: 2vw;
+  font-size: 6.4rem;
+  font-weight: bold;
+  color: white;
+}
+.container .main-content .jumbotron-section h5 span {
   display: block;
 }
 @media (max-width: 480px) {

@@ -156,7 +156,6 @@ h3 {
   font-weight: bold;
 }
 .container {
-  max-width: 1000px;
   width: 100%;
   margin: 0 auto;
 }
@@ -190,6 +189,38 @@ h3 {
     padding-right: 4vw;
   }
 }
+.dropdown-stuff {
+  z-index: 2;
+  position: fixed;
+  height: 95vh;
+  width: 100vw;
+  cursor: pointer;
+  background-color: #95A7B1;
+  opacity: 0.95;
+  left: 0;
+  bottom: 0;
+}
+.dropdown-stuff .dropdown-content {
+  padding-top: 15vh;
+}
+.dropdown-stuff .dropdown-link {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  font-size: 5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #FFFFFF;
+  padding-bottom: 3rem;
+  margin: 0 auto;
+  text-align: left;
+}
+.dropdown-stuff .dropdown-link:hover {
+  color: #222222;
+}
+.dropdown-hidden {
+  display: none;
+}
 .container .main-content .jumbotron-section {
   position: relative;
 }
@@ -212,13 +243,24 @@ h3 {
 }
 .container .main-content .jumbotron-section h1 {
   position: absolute;
-  bottom: 18vh;
-  left: 7vw;
+  bottom: 5vh;
+  left: 3vw;
   font-size: 6.4rem;
   font-weight: bold;
   color: white;
 }
 .container .main-content .jumbotron-section h1 span {
+  display: block;
+}
+.container .main-content .jumbotron-section h5 {
+  position: absolute;
+  bottom: 18vh;
+  left: 2vw;
+  font-size: 6.4rem;
+  font-weight: bold;
+  color: white;
+}
+.container .main-content .jumbotron-section h5 span {
   display: block;
 }
 @media (max-width: 480px) {
