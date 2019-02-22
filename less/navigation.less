@@ -38,20 +38,25 @@
     bottom: 0;
     .dropdown-content {
         padding-top: 15vh;
-    }
-    .dropdown-link {
-        display: flex;
-        flex-direction: column;
-        width: 25%;
-        font-size: 5rem;
-        font-weight: bold;
-        text-decoration: none;
-        color: #FFFFFF;
-        padding-bottom: 3rem;
-        margin: 0 auto;
-        text-align: left;
-        &:hover {
-            color: #222222;
+        .dropdown-link {
+            display: flex;
+            flex-direction: column;
+            width: 25%;
+            font-size: 5rem;
+            font-weight: bold;
+            text-decoration: none;
+            color: #FFFFFF;
+            padding-bottom: 3rem;
+            margin: 0 auto;
+            text-align: left;
+            &:hover {
+                color: #222222;
+            }
+        }
+        @media (max-width: 480px) {
+            .dropdown-link {
+                width: 40%;
+            }
         }
     }
 }

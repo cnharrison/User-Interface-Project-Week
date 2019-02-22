@@ -203,7 +203,7 @@ h3 {
 .dropdown-stuff .dropdown-content {
   padding-top: 15vh;
 }
-.dropdown-stuff .dropdown-link {
+.dropdown-stuff .dropdown-content .dropdown-link {
   display: flex;
   flex-direction: column;
   width: 25%;
@@ -215,8 +215,13 @@ h3 {
   margin: 0 auto;
   text-align: left;
 }
-.dropdown-stuff .dropdown-link:hover {
+.dropdown-stuff .dropdown-content .dropdown-link:hover {
   color: #222222;
+}
+@media (max-width: 480px) {
+  .dropdown-stuff .dropdown-content .dropdown-link {
+    width: 40%;
+  }
 }
 .dropdown-hidden {
   display: none;
