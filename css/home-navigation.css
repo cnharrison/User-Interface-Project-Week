@@ -1,0 +1,28 @@
+.container header {
+  display: flex;
+  justify-content: space-between;
+  vertical-align: baseline;
+  height: 5vh;
+  background-color: #95A7B1;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  padding-left: 8vw;
+  padding-right: 8vw;
+}
+.container header a {
+  display: none;
+}
+.container header img {
+  object-fit: contain;
+}
+.container header h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+}
+@media (max-width: 480px) {
+  .container header {
+    padding-left: 4vw;
+    padding-right: 4vw;
+  }
+}

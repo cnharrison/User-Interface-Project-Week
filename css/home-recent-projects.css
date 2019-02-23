@@ -1,0 +1,94 @@
+.container .recent-projects {
+  width: 855px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding-top: 4vh;
+}
+.container .recent-projects h3 {
+  align-self: flex-start;
+  padding-bottom: 5rem;
+}
+@media (max-width: 480px) {
+  .container .recent-projects h3 {
+    padding-left: 4vw;
+  }
+}
+.container .recent-projects .fat-content-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10vh;
+}
+.container .recent-projects .fat-content-section .text-n-img {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 10vh;
+}
+.container .recent-projects .fat-content-section .text-n-img h4 {
+  position: absolute;
+  bottom: 6vh;
+  right: 0vw;
+  color: #222222;
+  border: 1px solid white;
+  background-color: #D8D8D8;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  text-align: center;
+  width: 27rem;
+  text-decoration: none;
+  font-size: 2rem;
+}
+@media (max-width: 480px) {
+  .container .recent-projects .fat-content-section .text-n-img h4 {
+    right: 5vw;
+  }
+}
+.container .recent-projects .fat-content-section .text-n-img .project-img-mobile {
+  display: none;
+}
+@media (max-width: 480px) {
+  .container .recent-projects .fat-content-section .text-n-img .project-img-mobile {
+    width: 100%;
+    display: block;
+  }
+  .container .recent-projects .fat-content-section .text-n-img .project-img {
+    display: none;
+  }
+}
+.container .recent-projects .fat-content-section .text-n-img-reversed {
+  position: relative;
+}
+.container .recent-projects .fat-content-section .text-n-img-reversed h4 {
+  position: absolute;
+  right: 0vw;
+  left: 0vw;
+}
+@media (max-width: 480px) {
+  .container .recent-projects .fat-content-section .text-n-img-reversed h4 {
+    left: 5vw;
+  }
+}
+.container .recent-projects .fat-content-section p {
+  padding-left: 220px;
+  padding-right: 220px;
+  padding-bottom: 1rem;
+}
+.container .recent-projects .fat-content-section p span {
+  display: block;
+}
+@media (max-width: 480px) {
+  .container .recent-projects .fat-content-section p {
+    padding-left: 4vw;
+    padding-right: 4vw;
+  }
+}
+@media (max-width: 480px) {
+  .container .recent-projects {
+    width: 480px;
+  }
+}
