@@ -191,7 +191,8 @@ h3 {
 }
 .dropdown-stuff {
   z-index: 2;
-  position: fixed;
+  position: absolute;
+  overflow: hidden;
   height: 95vh;
   width: 100vw;
   cursor: pointer;
@@ -206,7 +207,7 @@ h3 {
 .dropdown-stuff .dropdown-content .dropdown-link {
   display: flex;
   flex-direction: column;
-  width: 25%;
+  width: 13%;
   font-size: 5rem;
   font-weight: bold;
   text-decoration: none;
